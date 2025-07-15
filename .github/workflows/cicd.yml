@@ -1,0 +1,22 @@
+name: Workflows File For CI/CD
+
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+
+jobs:
+  deployment:
+    runs-on: ubantu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install Application Level Dependencies
+        run: |
+          ls -l
