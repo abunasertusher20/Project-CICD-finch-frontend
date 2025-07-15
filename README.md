@@ -34,7 +34,7 @@ Finch is a modern e-commerce platform built using Vue.js on the frontend and Dja
 ## Deployment
 
 
-### Backend
+
 
 
 
